@@ -144,8 +144,7 @@ def motivate():
 sad = ["sad","dukhi","Dukhi","Sad","bad","Bad","cry","pain","dead","bekar","not good"]
 happy = ["kush ho jaa","Cheer up!!","no need to cry","everything is fine","we will rock someday","har andhere ke baad ujala aata hai "]
 hello = ["hello","Hello","HELLO","hEllo"]
-tatti = ["meri khaa le","karle jaake fir","abhi karke deta hoon","abe jaa hagedu","dast hai tu"]
-word = ["tatti","Tatti","gu","dast","hagedu","haggu"]
+
 reply = ["hello","hii","hii firend","wazz up","yo!!","hows ya?","kaise ho sir","hello mate","heya","hieeee"]
 d = pd.read_csv("sen.txt",delimiter = ".")
 import pandas as pd
@@ -345,7 +344,7 @@ async def on_message(message):
         await message.channel.send(file = file)
         
         await message.channel.send(random.choice(dd))
-      chela = ["rishu","tidda","chela","dast chela","noob chela","hagedu chela","bahut jayada hagne waala-->rishu" ]
+      chela = ["rishu" ]
       cc = ["chela","Chela","Chele","chele"]
       cc_1 = ["chela.jpg"]
       if any(i in message.content for i in cc):
